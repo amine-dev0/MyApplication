@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="username">Username</string>
+    <string name="hxh">GO GYM</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="reset_password">reset password</string>
+    <string name="email">email</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_fitness"
+        android:title="Fitness"/>
+    <item
+        android:id="@+id/time"
+        android:icon="@drawable/ic_baseline_calendar_month"
+        android:title="Calendar"
+        android:iconTintMode="screen" />
+    <item
+        android:id="@+id/calori"
+        android:icon="@drawable/ic_baseline_calculate"
+        android:title="Bmi Calculator"/>
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        android:title="Profile"/>
+
+
+
+</menu>

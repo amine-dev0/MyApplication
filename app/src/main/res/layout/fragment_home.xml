@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:orientation="vertical"
+    android:background="@color/LightBlue"
+    >
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        >
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dp"
+            android:layout_marginTop="15.0dp"
+            android:background="@drawable/backgroundcrop"
+            android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="150.0dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="284dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:padding="5.0dp"
+                    android:text="Biceps"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="45dp"
+                    android:textColor="@color/black"
+                    android:textSize="30.0dp"
+                    android:textStyle="bold" />
+
+
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.0">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:layout_width="132dp"
+                    android:layout_height="139dp"
+                    android:src="@drawable/bicep" />
+
+
+            </LinearLayout>
+
+
+
+
+    </LinearLayout>
+            <ToggleButton
+                android:id="@+id/exbtn1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="82dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttonsss"
+                android:padding="5dp"
+                android:textOff="@string/start"
+                android:textOn="@string/start"
+                android:onClick="onClick"
+                />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dp"
+            android:layout_marginTop="15.0dp"
+            android:background="@drawable/backgroundcrop"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="150.0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="284dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:padding="5.0dp"
+                        android:text="Back"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="45dp"
+                        android:textColor="@color/black"
+                        android:textSize="30.0dp"
+                        android:textStyle="bold" />
+
+
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.0">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="132dp"
+                        android:layout_height="139dp"
+                        android:src="@drawable/back2" />
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+            <ToggleButton
+                android:id="@+id/exbtn2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="82dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttonsss"
+                android:padding="5dp"
+                android:textOff="@string/start"
+                android:textOn="@string/start"
+                android:onClick="onClick"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dp"
+            android:layout_marginTop="15.0dp"
+            android:background="@drawable/backgroundcrop"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="150.0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="284dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:padding="5.0dp"
+                        android:text="chest"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="45dp"
+                        android:textColor="@color/black"
+                        android:textSize="30.0dp"
+                        android:textStyle="bold" />
+
+
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.0">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="132dp"
+                        android:layout_height="139dp"
+                        android:src="@drawable/ches2" />
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+            <ToggleButton
+                android:id="@+id/exbtn3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="82dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttonsss"
+                android:padding="5dp"
+                android:textOff="@string/start"
+                android:textOn="@string/start"
+                android:onClick="onClick"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dp"
+            android:layout_marginTop="15.0dp"
+            android:background="@drawable/backgroundcrop"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="150.0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="284dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:padding="5.0dp"
+                        android:text="Triceps"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="45dp"
+                        android:textColor="@color/black"
+                        android:textSize="27.0dp"
+                        android:textStyle="bold" />
+
+
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.0">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="132dp"
+                        android:layout_height="139dp"
+                        android:src="@drawable/tr1" />
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+            <ToggleButton
+                android:id="@+id/exbtn4"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="82dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttonsss"
+                android:padding="5dp"
+                android:textOff="@string/start"
+                android:textOn="@string/start"
+                android:onClick="onClick"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dp"
+            android:layout_marginTop="15.0dp"
+            android:background="@drawable/backgroundcrop"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="150.0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="284dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="45dp"
+                        android:fontFamily="monospace"
+                        android:padding="5.0dp"
+                        android:text="Shoulders"
+                        android:textColor="@color/black"
+                        android:textSize="27.0dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.0">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="132dp"
+                        android:layout_height="139dp"
+                        android:src="@drawable/shoul2" />
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+            <ToggleButton
+                android:id="@+id/exbtn5"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="82dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttonsss"
+                android:padding="5dp"
+                android:textOff="@string/start"
+                android:textOn="@string/start"
+                android:onClick="onClick"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dp"
+            android:layout_marginTop="15.0dp"
+            android:background="@drawable/backgroundcrop"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="150.0dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="284dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="monospace"
+                        android:padding="5.0dp"
+                        android:text="Legs"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="45dp"
+                        android:textColor="@color/black"
+                        android:textSize="30.0dp"
+                        android:textStyle="bold" />
+
+
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.0">
+
+                    <pl.droidsonroids.gif.GifImageView
+                        android:layout_width="132dp"
+                        android:layout_height="139dp"
+                        android:src="@drawable/leg4" />
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+            <ToggleButton
+                android:id="@+id/exbtn6"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="82dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/buttonsss"
+                android:padding="5dp"
+                android:textOff="@string/start"
+                android:textOn="@string/start"
+                android:onClick="onClick"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
