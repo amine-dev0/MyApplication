@@ -1,5 +1,6 @@
 package com.example.myapplication;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -12,13 +13,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.ToggleButton;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
 
 public class ProfileFragment extends Fragment {
 
-    CircleImageView image;
+    DBHelper Mydb;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -31,6 +33,10 @@ public class ProfileFragment extends Fragment {
         TextView nav_username = (TextView) rootView.findViewById(R.id.nav_username);
         TextView nav_userage = (TextView) rootView.findViewById(R.id.nav_age);
         TextView nav_email = (TextView) rootView.findViewById(R.id.nav_email);
+        ToggleButton logout = (ToggleButton) rootView.findViewById(R.id.logout);
+
+        Mydb = new DBHelper(getContext());
+
 
 
         DBHelper dbHelper = new DBHelper(this.getContext());
@@ -48,6 +54,19 @@ public class ProfileFragment extends Fragment {
                 nav_image.setImageBitmap(bitmap);
             }
         }
+
+        logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getContext(),MainActivity.class);
+                startActivity(intent);
+                Toast.makeText(getContext(), "You Logged Out", Toast.LENGTH_SHORT).show();
+                Mydb.close();
+
+
+            }
+        });
+
         return rootView;
     }
 }

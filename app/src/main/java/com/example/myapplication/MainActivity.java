@@ -12,7 +12,7 @@ import android.widget.Toast;
 import android.widget.ToggleButton;
 
 public class MainActivity extends AppCompatActivity {
-    EditText username, password;
+        EditText username, password;
     TextView register;
     ToggleButton btnlogin;
     DBHelper DB;
@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 String pass = password.getText().toString();
 
                 if(user.equals("")||pass.equals(""))
+
                     Toast.makeText(MainActivity.this, "Please enter all the fields", Toast.LENGTH_SHORT).show();
                 else{
                     Boolean checkuserpass = DB.checkusernamepassword(user, pass);

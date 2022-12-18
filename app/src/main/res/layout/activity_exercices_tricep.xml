@@ -94,27 +94,6 @@
                     </LinearLayout>
 
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_weight="0.0"
-                        android:gravity="center">
-
-
-                        <ImageView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="5.0dp"
-
-                            android:src="@drawable/ic_baseline_keyboard">
-
-                        </ImageView>
-
-
-                    </LinearLayout>
-
-
                 </LinearLayout>
 
             </LinearLayout>
@@ -169,7 +148,6 @@
                             android:layout_width="137dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="50dp"
-
                             android:padding="5.0dp"
                             android:text="3 Sets"
                             android:textColor="#ffff5722"
@@ -190,24 +168,6 @@
 
 
                     </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_weight="0.0"
-                        android:gravity="center">
-
-
-                        <ImageView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="5.0dp"
-                            android:src="@drawable/ic_baseline_keyboard" />
-
-
-                    </LinearLayout>
-
 
                 </LinearLayout>
 
@@ -264,7 +224,6 @@
                             android:layout_width="137dp"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="50dp"
-
                             android:padding="5.0dp"
                             android:text="3 Sets"
                             android:textColor="#ffff5722"
@@ -285,24 +244,6 @@
 
 
                     </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_weight="0.0"
-                        android:gravity="center">
-
-
-                        <ImageView
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_margin="5.0dp"
-                            android:src="@drawable/ic_baseline_keyboard" />
-
-
-                    </LinearLayout>
-
 
                 </LinearLayout>
 

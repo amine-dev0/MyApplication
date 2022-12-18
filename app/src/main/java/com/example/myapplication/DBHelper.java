@@ -58,11 +58,11 @@ public class DBHelper extends SQLiteOpenHelper {
         contentValues.put("image",imageInBytes);
         long checkIfQueryRun = Mydb.insert("LoginUser",null, contentValues);
         if (checkIfQueryRun != -1){
-            Toast.makeText(context.getApplicationContext(),"table added successfully", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context.getApplicationContext(),"Registered Successfully", Toast.LENGTH_SHORT).show();
             Mydb.close();
         }
         else {
-            Toast.makeText(context.getApplicationContext(),"fail to add", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context.getApplicationContext(),"fail to add user", Toast.LENGTH_SHORT).show();
         }
 
     }
@@ -75,16 +75,6 @@ public class DBHelper extends SQLiteOpenHelper {
     }
 
 
-
-
-    public Boolean checkusername(String username) {
-        SQLiteDatabase MyDB = this.getWritableDatabase();
-        Cursor cursor = MyDB.rawQuery("Select * from LoginUser where username = ?", new String[]{username});
-        if (cursor.getCount() > 0)
-            return true;
-        else
-            return false;
-    }
 
     public Boolean checkusernamepassword(String username, String password){
         SQLiteDatabase MyDB = this.getWritableDatabase();

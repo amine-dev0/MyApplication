@@ -22,7 +22,7 @@ import de.hdodenhof.circleimageview.CircleImageView;
 public class RegisterUser extends AppCompatActivity {
 
     EditText username, password, age, email;
-    TextView select;
+    TextView select,signIn;
     ToggleButton signup;
     DBHelper DB;
     CircleImageView profileImage ;
@@ -41,6 +41,7 @@ public class RegisterUser extends AppCompatActivity {
         password = (EditText) findViewById(R.id.password);
         profileImage = (CircleImageView) findViewById(R.id.Profile_image);
         select = (TextView) findViewById(R.id.select);
+        signIn = (TextView) findViewById(R.id.signIn);
         age = (EditText) findViewById(R.id.age);
         email = (EditText) findViewById(R.id.email);
         signup = (ToggleButton) findViewById(R.id.btnsignup);
@@ -58,6 +59,13 @@ public class RegisterUser extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 choseImage();
+            }
+        });
+        signIn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
             }
         });
 

@@ -7,7 +7,6 @@ public class ModelClass {
     private String username, email, age, password;
     private Bitmap profileImage;
 
-
     public ModelClass(String username, String email, String age, String password, Bitmap profileImage) {
         this.username = username;
         this.email = email;

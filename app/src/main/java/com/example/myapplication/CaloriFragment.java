@@ -52,52 +52,40 @@ public class CaloriFragment extends Fragment {
 
                         textView.setText("Overweight class 2 : "+bmiIndex);
 
-
                     }
                     else if (bmiIndex>30 || bmiIndex>34.9){
 
                         textView.setText("Overweight class 1 : "+bmiIndex);
-
 
                     }
                     else if (bmiIndex>25 || bmiIndex>29.9){
 
                         textView.setText("Normal weight: "+bmiIndex);
 
-
                     }
                     else if(bmiIndex>18.5 || bmiIndex>24.9) {
 
                         textView.setText("Normal weight : "+bmiIndex);
-
 
                     }
                     else if(bmiIndex<18.5) {
 
                         textView.setText("Under weight : "+bmiIndex);
 
-
                     }
-
                     else{
 
                         textView.setText("Error");
 
                     }
 
-
                 }else {
 
-
                     textView.setText("Please Input All Box");
-
-
                 }
 
             }
         });
-
-
         return v;
     }
 }

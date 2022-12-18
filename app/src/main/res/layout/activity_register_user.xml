@@ -11,7 +11,6 @@
     <ImageView
         android:id="@+id/banner"
         android:layout_width="177dp"
-
         android:layout_height="99dp"
         android:layout_marginBottom="202dp"
         android:visibility="visible"
@@ -105,8 +104,6 @@
         />
 
 
-
-
     <ToggleButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -122,21 +119,6 @@
 
 
         />
-
-
-
-
-
-    <ProgressBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        style="?android:attr/progressBarStyleLarge"
-        android:id="@+id/progressBar"
-        android:layout_centerInParent="true"
-        android:visibility="gone"
-        tools:ignore="MissingConstraints"
-        />
-
 
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -161,5 +143,28 @@
         android:layout_below="@id/Profile_image"
         android:layout_marginTop="5dp"/>
 
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnsignup"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="15dp"
+        android:text="Have an Account?"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnsignup"
+        android:layout_marginLeft="189dp"
+        android:layout_marginTop="15dp"
+        android:text="Sign In"
+        android:textColor="#ff4444"
+        android:textSize="17sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
